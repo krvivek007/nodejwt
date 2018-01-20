@@ -1,6 +1,8 @@
 # nodejwt
 This sample project demonstrate the use of JWT with Node and MySQL
 It creates two POST endpoints.
+
+
 1.http://localhost:3000/authenticate
   Input paramenter:
     userName
@@ -9,6 +11,8 @@ It creates two POST endpoints.
     Content-Type : application/x-www-form-urlencoded
  Response:
     a json with toekn
+
+
 2. http://localhost:3000/api/employee This will add a new employee if authenticated or return error.
    Input Parameter:
     json: {
